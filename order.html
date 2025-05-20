@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Замовити онлайн</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <header>
+    <h1>Замовити онлайн</h1>
+    <nav>
+      <a href="index.html">Головна</a>
+      <a href="products.html">Продукція</a>
+      <a href="about.html">Про нас</a>
+      <a href="order.html">Замовлення</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <form id="order-form">
+        <label>Ім'я: <input type="text" name="name" required></label><br>
+        <label>Адреса (у межах міста): <input type="text" name="address" required></label><br>
+        <label>Телефон: <input type="tel" name="phone" required></label><br>
+        <label>Продукт:
+          <select name="product">
+            <option>Класичний пшеничний хліб</option>
+            <option>Житній хліб</option>
+            <option>Багатозерновий хліб</option>
+            <option>Білий батон</option>
+            <option>Цільнозерновий батон</option>
+            <option>Класичний вершковий круасан</option>
+            <option>Мігдалевий круасан</option>
+            <option>Шоколадний круасан</option>
+            <option>Круасан з шинкою та сиром</option>
+            <option>Haбір асорті печива</option>
+          </select>
+        </label><br>
+        <label>Дата (доставка в день замовлення): <input type="date" name="date" required></label><br>
+        <button type="submit">Замовити</button>
+      </form>
+      <p>* Доставка лише у межах міста, в день замовлення.</p>
+    </section>
+  </main>
+  <footer>
+    <p>Доставка по місту в день замовлення. &copy; 2025 Пекарня</p>
+  </footer>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
